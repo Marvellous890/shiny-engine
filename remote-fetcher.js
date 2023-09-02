@@ -1,7 +1,7 @@
 const http = require('http'); // Use 'https' for secure connections
 const fs = require('fs');
 const url = 'http://d249.userscloud.net/d/helwsdujtn2fvxijipmyrfsnbqihnczcfibwmg5ivbk7zpjd4i2jouoxvm6ac63jd3kvbtk7/guru.data.json'; // Replace with the actual URL of the remote file
-const localFilePath = './guru.data.json'; // Replace with the desired local file path
+const localFilePath = '../guru.data.json'; // Replace with the desired local file path
 
 // Make an HTTP GET request to fetch the remote file
 http.get(url, (response) => {
