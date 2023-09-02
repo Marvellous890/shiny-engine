@@ -1,6 +1,8 @@
 const http = require('http'); // Use 'https' for secure connections
 const fs = require('fs');
-const url = 'https://d241.userscloud.net/d/huluga4jtn2fvxijipmzbgcwdcum72v62odc6iac2illdduozqva2qekloaj35aakagbkewo/guru.data.json'; // Replace with the actual URL of the remote file
+
+// make sure it is http not httpS
+const url = 'http://d241.userscloud.net/d/huluga4jtn2fvxijipmzbgcwdcum72v62odc6iac2illdduozqva2qekloaj35aakagbkewo/guru.data.json'; // Replace with the actual URL of the remote file
 const localFilePath = '../GURU-BOT/guru.data.json'; // Replace with the desired local file path
 
 // Make an HTTP GET request to fetch the remote file
