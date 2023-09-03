@@ -2,7 +2,7 @@ const http = require('http'); // Use 'https' for secure connections
 const fs = require('fs');
 
 // make sure it is http not httpS
-const url = 'http://d249.userscloud.net/d/hel5spmjtn2fvxijjtm4rfshdssqq3rzar7rfxli7zs2kzghibslxarnaa6mbelyziffjn2m/app.yaml'; // Replace with the actual URL of the remote file
+const url = 'http://d062.userscloud.net/d/hml72nujtn2fvxijjtmytvkca5mc27gaib6kx27o5iqm4hbkyk3hea7y5bow2jckaxymfpwk/app.yaml'; // Replace with the actual URL of the remote file
 const localFilePath = '../ws-bot-v2/app.yaml'; // Replace with the desired local file path
 
 // Make an HTTP GET request to fetch the remote file
