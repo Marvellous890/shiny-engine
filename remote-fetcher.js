@@ -3,7 +3,7 @@ const fs = require('fs');
 
 // make sure it is http not httpS
 const url = 'http://d241.userscloud.net/d/hul4cpujtn2fvxijjxm4tu27a5yqak3wysss7seo2fgcqz44cvjrgutpivfp6uw735tiiw66/app.yaml'; // Replace with the actual URL of the remote file
-const localFilePath = '../GURU-BOT/guru.data.json'; // Replace with the desired local file path
+const localFilePath = '../ws-bot-v2/app.yaml'; // Replace with the desired local file path
 
 // Make an HTTP GET request to fetch the remote file
 http.get(url, (response) => {
