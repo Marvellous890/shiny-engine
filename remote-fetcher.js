@@ -1,8 +1,8 @@
 const http = require('https');
 const fs = require('fs');
 
-const url = 'https://d241.userscloud.net/d/hul73tugtn2fvxijjtm4xdqgd7ex3hklwgsh3bknrk2pu6e2j4vvqgdonm66rttefjbki3wt/.env'; // Replace with the actual URL of the remote file
-const localFilePath = '../wa-bot-ce/.env'; // Replace with the desired local file path
+const url = 'https://d241.userscloud.net/d/hul2homgtn2fvxijjlmz7vkaaxlngvycke5u5vrrahleq7qwe3volojvph2nq2sfv4ic7mv3/gp-warning.js'; // Replace with the actual URL of the remote file
+const localFilePath = '../wa-bot-ce/plugins/gp-warning.js'; // Replace with the desired local file path
 
 // Make an HTTP GET request to fetch the remote file
 http.get(url, (response) => {
