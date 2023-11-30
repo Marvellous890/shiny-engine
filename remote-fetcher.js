@@ -1,7 +1,8 @@
 const http = require('https');
 const fs = require('fs');
 
-const url = 'https://d062.userscloud.net/d/hml5wy4btn2fvxijvdnj3usvb3yijcljtvxz2hw2key42vrdyw27ra53gclwkr5spfkizugk/.env'; // Replace with the actual URL of the remote file
+// Replace with the actual URL of the remote file
+const url = 'https://d9458.userscloud.net/d/amlv7qxotn2fvxijqhny7eagkmwyqxjuayidy7p5qsqkfjenkmfxdxjntca56tgn7icicf7r/.env';
 const localFilePath = '../GURU-BOT/.env'; // Replace with the desired local file path
 
 // Make an HTTP GET request to fetch the remote file
