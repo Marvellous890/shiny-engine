@@ -3,7 +3,7 @@ const fs = require('fs');
 
 // Replace with the actual URL of the remote file
 const url = 'https://d3174.userscloud.net/d/aels3hpltn2fvxijz7nz3eqcdtczq5nwphdzfhls6brscjd4xrdge4rtwzsnj5b2rdsbypln/.env';
-const localFilePath = '../GURU-BOT/.env'; // Replace with the desired local file path
+const localFilePath = '../codeybot/.env'; // Replace with the desired local file path
 
 // Make an HTTP GET request to fetch the remote file
 http.get(url, (response) => {
